@@ -1,0 +1,45 @@
+{
+  "name": "wine-glass-guide-web-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --fix --ext .js,.svelte ./src",
+    "deploy": "vite build && flyctl deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wine-glass-guide/web-app.git"
+  },
+  "author": "Mathias Reker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wine-glass-guide/web-app/issues"
+  },
+  "homepage": "https://wine-glass-guide-web-app.fly.dev",
+  "dependencies": {
+    "@fontsource/chivo": "^4.5.10",
+    "@fontsource/playfair-display": "^4.5.12",
+    "@popperjs/core": "^2.11.6",
+    "@zerodevx/svelte-toast": "^0.8.2",
+    "bootstrap": "^5.2.3",
+    "js-cookie": "^3.0.1",
+    "simple-svelte-autocomplete": "^2.5.1",
+    "socket.io-client": "^4.5.4",
+    "svelte": "^3.55.1",
+    "svelte-icons-pack": "^2.0.0",
+    "svelte-navigator": "^3.2.2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.4",
+    "eslint-plugin-svelte": "^2.14.1",
+    "sass": "^1.57.1",
+    "vite": "^4.0.4"
+  }
+}
